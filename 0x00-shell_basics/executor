@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "input file $name"
+READ $name
+echo "this $name doesnt exist"
+
