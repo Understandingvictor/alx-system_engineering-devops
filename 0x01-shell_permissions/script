@@ -1,6 +1,7 @@
-echo "what file do u want to creat"
+echo "What file do you want to create?"
 read name
 touch "$name"
 echo "#!/bin/bash" > "$name"
 chmod u+x "$name"
-cat > "$name"
+cat >> "$name"
+
