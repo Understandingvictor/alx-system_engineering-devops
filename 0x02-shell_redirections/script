@@ -3,5 +3,6 @@ read name
 touch "$name"
 echo "#!/bin/bash" > "$name"
 chmod u+x "$name"
+echo 'type in your script (know that your file already contain shebang)'
 cat >> "$name"
 
