@@ -1,5 +1,0 @@
-echo "what file do u want to creat"
-read name
-touch "$name"
-chmod u+x "$name"
-cat > "$name"
